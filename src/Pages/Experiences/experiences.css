@@ -1,0 +1,96 @@
+#linkRowGriding{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sweLink{
+    width: 500px;
+    height: 450px;
+    background-image: url("sweImage.jpeg");
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    opacity: 0.90;
+    display: flex;
+    align-items: center;
+}
+.sweLink:hover{
+    opacity: 0.5;
+}
+
+.portfolioLink{
+    width: 500px;
+    height: 450px;
+    background-image: url("portfolioImage.jpeg");
+    background-color: #333333;
+    text-align: center;
+    font-size: 55px;
+    color: white;
+    opacity: 0.90;
+    display: flex;
+    align-items: center;
+}
+.portfolioLink:hover{
+    opacity: 0.5;
+}
+
+.designLink{
+    width: 500px;
+    height: 450px;
+    background-image: url("webDesignImage.jpeg");
+    background-color: gold;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    opacity: 0.90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.designLink:hover{
+    opacity: 0.5;
+}
+
+.projManLink{
+    width: 500px;
+    height: 450px;
+    background-color: gold;
+    text-align: center;
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hackathonLink{
+    width: 500px;
+    height: 450px;
+    background-image: url("hackathonImage.jpeg");
+    background-color: gold;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    opacity: 0.75;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hackathonLink:hover{
+    opacity: 0.5;
+}
+
+.comingSoonLink{
+    width: 500px;
+    height: 450px;
+    background-color: wheat;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spacer{
+    height: 25px;
+}

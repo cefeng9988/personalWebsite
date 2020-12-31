@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+*{
+    padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a{
+    color: #333;
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#homeHeader{
+    height: 150px;
+    width: auto;
+    background: linear-gradient(0deg, rgba(255,255,255,0) 3%, rgba(232,184,110,0.2903536414565826) 13%, rgba(240,169,75,0.7721463585434174) 32%, rgba(249,159,45,1) 63%);
+    margin: -10px -20px 0 -8px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.homeHeaderTitle{
+    padding: 8px 0 0 30px;
+    margin-top: -1px;
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#routeTextFlex{
+    padding-right: 150px;
+    display: flex;
+    justify-content: center;
 }
+
+.routeTextStyle{
+    padding-right: 40px;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
+.profilePicSize{
+    width: 430px;
+    height: 535px;
+    margin-top: 20px;
+}
+
+.phantomFooter{
+    height: 50px;
+    width: 100vw;
+}
+
+.footer{
+    background: linear-gradient(180deg, rgba(255,255,255,0) 3%, rgba(232,184,110,0.2903536414565826) 29%, rgba(240,169,75,0.7721463585434174) 53%, rgba(249,159,45,1) 84%);
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0 -10px 0 -8px;
+}
+
+.footerText{
+    padding-right: 45px;
+    padding-top: 7px;
+    text-align: right;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+

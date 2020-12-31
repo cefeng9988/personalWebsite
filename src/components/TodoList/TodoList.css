@@ -1,0 +1,62 @@
+.todoHeaderStyle{
+    color: white;
+    width: 660px;
+    background: #333;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.linkStyle{
+    color: white;
+    padding: 10px;
+}
+
+.aboutPage {
+    color: black;
+    text-align: center;
+}
+
+.aboutPageHeader {
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.buttonStyle{
+    background: dodgerblue;
+    color: #111111;
+    padding: 7px 10px;
+    float: right;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.buttonStyle:hover{
+    background: navajowhite;
+}
+
+.TodoListComponent{
+    padding-top: 20px;
+}
+
+.todoListContainer{
+    padding-top: 10px;
+    width: 660px;
+    height: 400px;
+    overflow: auto;
+}
+
+.btn{
+    display: inline-block;
+    background: lightslategrey;
+    color: #fff;
+    padding: 7px 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: navajowhite;
+    color: black;
+}
+

@@ -1,0 +1,85 @@
+
+.expLMHeader{
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px -2px 0 #fff;
+    height: 70px;
+    padding: 20px 0 20px 0;
+}
+
+.expLMBodyHeader{
+    margin: 20px 0 20px 0;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 45px;
+    text-shadow: 2px -2px 0 #fff;
+    height: 70px;
+}
+
+.expLMIntroText{
+    width: 1500px;
+    margin: 30px auto 30px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.expLMBodyText{
+    width: 1500px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+#circleTextGriding{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.circleText{
+    background: linear-gradient(0deg, rgba(255,255,255,0) 3%, rgba(232,184,110,0.2903536414565826) 13%, rgba(240,169,75,0.7721463585434174) 32%, rgba(249,159,45,1) 63%);
+    color: white;
+    border-radius: 30px;
+    padding: 10px 15px 15px 15px;
+    width: auto;
+    height: 60px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*#expLMStandUpGriding{*/
+/*    margin: 40px 0 40px 0;*/
+/*    padding: 20px 0 20px 0;*/
+/*    display: flex;*/
+/*    justify-content: space-around;*/
+/*}*/
+
+/*.standUpPicSize{*/
+/*    width: 875px;*/
+/*    height: 380px;*/
+/*}*/
+
+#componentGriding{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.componentText{
+    height: 325px;
+    width: 650px;
+    /*background-color: #f4f4f4;*/
+    background: linear-gradient(0deg, rgba(255,255,255,0) 3%, rgba(232,184,110,0.2903536414565826) 13%, rgba(240,169,75,0.7721463585434174) 32%, rgba(249,159,45,1) 63%);
+    border-radius: 30px;
+    margin-top: 65px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.componentTextPadding{
+    padding: 40px 30px 0 30px;
+    color: white;
+    font-weight: bold;
+}

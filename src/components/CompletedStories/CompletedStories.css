@@ -1,0 +1,39 @@
+.storyHeader{
+    background-color: #333333;
+    color: white;
+    width: 660px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+.totalPoints{
+    text-align: left;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.storyContainer{
+    height: 390px;
+    width: 660px;
+    text-align: center;
+    margin: 15px 0 20px 0;
+    overflow: auto;
+}
+
+.eachStoryStyle{
+    background-color: #f4f4f4;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom: dashed;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    border-color: lightgray;
+    align-content: center;
+}
+
+.boldText{
+    font-weight: bold;
+    padding-top: 10px;
+}
