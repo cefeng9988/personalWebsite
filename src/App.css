@@ -1,5 +1,5 @@
 *{
-    padding: 0px;
+    padding: 0;
 }
 
 body {
@@ -41,12 +41,6 @@ a{
     color: white;
     font-size: 30px;
     padding-top: 50px;
-}
-
-.profilePicSize{
-    width: 430px;
-    height: 535px;
-    margin-top: 20px;
 }
 
 .phantomFooter{

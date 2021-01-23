@@ -1,10 +1,16 @@
 import React, {Component} from 'react';
-import '../../App.css';
+import './Home.css';
 
 const Home = () => {
     return(
         <>
-             <img src="/profilePic.jpeg" alt="image" className={"profilePicSize"}/>
+            <div id={'profileBio'}>
+                <img src="/profilePic.jpeg" alt="image" className={"homePic"}/>
+                <div id={'homeBio'}>
+                    <div className={'homeBioHeader'}> Bio </div>
+                    <div className={'homeBioBody'}> Biography body content filler. </div>
+                </div>
+            </div>
         </>
     )
 }
