@@ -11,23 +11,53 @@
 
 #homeBio{
     width: 1250px;
-    height: 535px;
+    height: auto;
+    border-radius: 30px;
     margin-top: 20px;
-    background-color: aquamarine;
+    background-color: #EDEDED;
 }
 
-.homeBioHeader{
+.homeHeaders{
     font-size: 35px;
-    width: 50px;
+    font-weight: bold;
+    width:auto;
     height: 50px;
-    background-color: bisque;
+    padding: 10px 0 0 15px;
+}
+
+.homeInterestsHeader{
+    font-size: 35px;
+    font-weight: bold;
+    width:auto;
+    height: 50px;
+    padding: 20px 0 0 15px;
 }
 
 .homeBioBody{
-    font-size: 15px;
-    width: 300px;
-    height: 50px;
-    background-color: chocolate;
+    font-size: 25px;
+    width: auto;
+    height: auto;
+    padding: 0 15px 0 15px;
 }
 
+#gitLink{
+    display: flex;
+    justify-content: left;
+}
+
+.gitLinkPadding{
+    padding-top: 20px;
+    font-size: 25px;
+}
+
+#gitImagesStyle{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.gitImages{
+    width: 180px;
+    height: 360px;
+}
 
