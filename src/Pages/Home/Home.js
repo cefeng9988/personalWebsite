@@ -14,7 +14,7 @@ const Home = () => {
                         Massachusetts. Over his college career, Eric has taken on numerous technical and non-technical opportunities.
                         These include: working in alumni outreach, clinical trial research, website design and Software Engineering. </div>
                     <div className={'homeInterestsHeader'}> Interests </div>
-                    <div className={'homeBioBody'}> • Eric is a plant enthusiast. Over the course of quarentine, Eric has collected
+                    <div className={'homeBioBody'}> • Eric is a plant enthusiast. Over the course of quarantine, Eric has collected
                          numerous species of fauna (Monstera Deliciosas, Pothos, Ivy). </div>
                     <div className={'homeBioBody'}> • Eric loves to cook and develop new recipes. He has mastered the pan-flip and experimented with
                          Chinese, Indian and French cuisine. </div>
